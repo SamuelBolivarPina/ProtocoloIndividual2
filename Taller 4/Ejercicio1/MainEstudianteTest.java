@@ -1,8 +1,10 @@
+package Ejercicio1;
+
 public class MainEstudianteTest {
     public static void main(String[] args) {
         System.out.println("--- PRUEBA DE CLASE ESTUDIANTE ---");
 
-        // 1. Crear una instancia de Estudiante usando el constructor
+        // 1. Crear una instancia de Ejercicio1.Estudiante usando el constructor
         Estudiante estudiante1 = new Estudiante("Samuel", 18, 4.6);
 
         // 2. Acceder a las propiedades usando los métodos getters
