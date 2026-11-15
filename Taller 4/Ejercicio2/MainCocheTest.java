@@ -13,5 +13,15 @@ public class MainCocheTest {
         System.out.println("Velocidad Máxima Inicial: " + miCoche.getVelocidadMaxima() + " km/h");
 
         System.out.println("-----------------------------------");
+
+        // 3. Probar el método acelerar con un incremento válido
+        miCoche.acelerar(25.5);
+
+        // 4. Probar el método acelerar con un incremento inválido (negativo o cero)
+        miCoche.acelerar(-10.0);
+
+        // 5. Mostrar la velocidad final
+        System.out.println("--- ESTADO FINAL ---");
+        System.out.println("Velocidad Máxima Actualizada: " + miCoche.getVelocidadMaxima() + " km/h");
     }
 }
