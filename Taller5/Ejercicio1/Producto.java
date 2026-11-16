@@ -1,5 +1,4 @@
-package Taller5;
-public class Producto {
+class Producto {
     public String nombre;
     public double precio;
     public int stock;

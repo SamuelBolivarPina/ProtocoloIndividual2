@@ -1,6 +1,8 @@
+/*
 package pruebas;
 
-import vehiculos.Vehiculo;
+
+import vehiculo.Vehiculo;
 
 public class MainExterno {
     public static void main(String[] args) {
@@ -12,3 +14,4 @@ public class MainExterno {
         // porque el modificador de paquete impide acceder a él desde el paquete 'pruebas'.
     }
 }
+*/

@@ -1,7 +1,7 @@
 package Ejercicio1;
 
 public class Gerente extends Empleado {
-    private String departamento;
+    protected String departamento;
     public Gerente(String nombre, double salario, String departamento){
         super(nombre, salario); // llama a constructor de la clase padre (Ejercicio1.Empleado)
         this.departamento = departamento;

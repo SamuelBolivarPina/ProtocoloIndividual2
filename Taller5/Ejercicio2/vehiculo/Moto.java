@@ -1,5 +1,6 @@
 package vehiculo;
-public class Moto extends Vehiculo {
+
+class Moto extends Vehiculo {
 void mostrarTipo(){
     System.out.println("Tipo de Vehiculo: " + tipo);
     }
