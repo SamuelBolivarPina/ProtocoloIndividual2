@@ -6,6 +6,11 @@ public class Moto extends vehiculo{
         super(tipo,marca);
         this.cilindraje = cilindraje;
     }
+
+    public Moto() {
+        super();
+    }
+
     public void mostrarMoto() {
         System.out.println("Vehículo: " + tipo + " | Marca: " + marca + " | cilindraje: " + cilindraje + "cc");
     }

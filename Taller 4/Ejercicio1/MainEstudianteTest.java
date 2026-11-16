@@ -1,5 +1,4 @@
 package Ejercicio1;
-
 public class MainEstudianteTest {
     public static void main(String[] args) {
         System.out.println("--- PRUEBA DE CLASE ESTUDIANTE ---");

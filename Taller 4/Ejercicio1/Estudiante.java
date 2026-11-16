@@ -1,5 +1,4 @@
 package Ejercicio1;
-
 public class Estudiante {
     // 1. Atributos privados
     private String nombre;

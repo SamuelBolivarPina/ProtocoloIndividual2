@@ -1,17 +1,17 @@
 package Taller5;
-class Producto {
-    String nombre;
-    double precio;
-    int stock;
+public class Producto {
+    public String nombre;
+    public double precio;
+    public int stock;
 
     // constuctor
-    Producto(String nombre, double precio, int stock) {
+    public Producto(String nombre, double precio, int stock) {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
     }
 
-    void mostrarInfo() {
+    public void mostrarInfo() {
         System.out.println("Producto: " + nombre + " | Precio: $" + precio + " | Stock: " + stock);
     }
 }
